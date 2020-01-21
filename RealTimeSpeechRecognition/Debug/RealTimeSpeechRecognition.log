@@ -1,0 +1,80 @@
+﻿  ascii.cpp
+C:\Users\GOZDEDOGAN\Desktop\Visual Studio Projects\RealTimeSpeechRecognition\RealTimeSpeechRecognition\ascii.cpp(21,25): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\algorithm(88): message : see reference to function template instantiation 'auto dump_histogram::<lambda_7060916e2b69f66cc61835d35a3bf0dc>::operator ()<double>(const double &) const' being compiled
+C:\Users\GOZDEDOGAN\Desktop\Visual Studio Projects\RealTimeSpeechRecognition\RealTimeSpeechRecognition\ascii.cpp(22): message : see reference to function template instantiation '_Fn std::for_each<iterator_t,dump_histogram::<lambda_7060916e2b69f66cc61835d35a3bf0dc>>(_InIt,_InIt,_Fn)' being compiled
+          with
+          [
+              _Fn=dump_histogram::<lambda_7060916e2b69f66cc61835d35a3bf0dc>,
+              _InIt=iterator_t
+          ]
+C:\Users\GOZDEDOGAN\Desktop\Visual Studio Projects\RealTimeSpeechRecognition\RealTimeSpeechRecognition\ascii.cpp(86,30): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\algorithm(88): message : see reference to function template instantiation 'auto dump_aerial_histogram::<lambda_385203e4ad85dbef6822d14dabce3ad1>::operator ()<double>(const double &) const' being compiled
+C:\Users\GOZDEDOGAN\Desktop\Visual Studio Projects\RealTimeSpeechRecognition\RealTimeSpeechRecognition\ascii.cpp(87): message : see reference to function template instantiation '_Fn std::for_each<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,dump_aerial_histogram::<lambda_385203e4ad85dbef6822d14dabce3ad1>>(_InIt,_InIt,_Fn)' being compiled
+          with
+          [
+              _Fn=dump_aerial_histogram::<lambda_385203e4ad85dbef6822d14dabce3ad1>,
+              _Ty=double,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\type_traits(1605,27): warning C4244: 'return': conversion from 'double' to '_Rx', possible loss of data
+          with
+          [
+              _Rx=size_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\functional(925): message : see reference to function template instantiation '_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty>(_Callable &,_Ty &&)' being compiled
+          with
+          [
+              _Rx=size_t,
+              _Callable=dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>,
+              _Ty=size_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\functional(926): message : see reference to function template instantiation '_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty>(_Callable &,_Ty &&)' being compiled
+          with
+          [
+              _Rx=size_t,
+              _Callable=dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>,
+              _Ty=size_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\functional(925): message : while compiling class template member function '_Rx std::_Func_impl_no_alloc<dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>,_Rx,size_t>::_Do_call(size_t &&)'
+          with
+          [
+              _Rx=size_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\functional(807): message : see reference to class template instantiation 'std::_Func_impl_no_alloc<dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>,_Ret,size_t>' being compiled
+          with
+          [
+              _Ret=size_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\functional(1011): message : see reference to variable template 'const bool _Is_large<std::_Func_impl_no_alloc<<lambda_3eaa9d9529048190f1dde907f1064c29>,unsigned int,unsigned int> >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\functional(1130): message : see reference to function template instantiation 'void std::_Func_class<_Ret,size_t>::_Reset<dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=size_t,
+              _Fx=dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\functional(1130): message : see reference to function template instantiation 'void std::_Func_class<_Ret,size_t>::_Reset<dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=size_t,
+              _Fx=dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>
+          ]
+C:\Users\GOZDEDOGAN\Desktop\Visual Studio Projects\RealTimeSpeechRecognition\RealTimeSpeechRecognition\ascii.cpp(74): message : see reference to function template instantiation 'std::function<size_t (size_t)>::function<dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>,void>(_Fx)' being compiled
+          with
+          [
+              _Fx=dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>
+          ]
+C:\Users\GOZDEDOGAN\Desktop\Visual Studio Projects\RealTimeSpeechRecognition\RealTimeSpeechRecognition\ascii.cpp(72): message : see reference to function template instantiation 'std::function<size_t (size_t)>::function<dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>,void>(_Fx)' being compiled
+          with
+          [
+              _Fx=dump_aerial_histogram::<lambda_3eaa9d9529048190f1dde907f1064c29>
+          ]
+  fourier.cpp
+  RealTimeSpeechRecognition.cpp
+C:\Users\GOZDEDOGAN\Desktop\Visual Studio Projects\RealTimeSpeechRecognition\RealTimeSpeechRecognition\RealTimeSpeechRecognition.cpp(172,23): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=short
+          ]
+  timestamp.cpp
+  Generating Code...
+  RealTimeSpeechRecognition.vcxproj -> C:\Users\GOZDEDOGAN\Desktop\Visual Studio Projects\RealTimeSpeechRecognition\Debug\RealTimeSpeechRecognition.exe
